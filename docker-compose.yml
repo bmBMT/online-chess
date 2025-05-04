@@ -7,5 +7,4 @@ services:
     restart: unless-stopped
     ports:
       - 3000:3000
-    networks:
-      - npm_default
+    network_mode: npm_default
