@@ -2,6 +2,7 @@ services:
   frontend:
     build:
       target: stage
+      context: .
     image: chess-frontend
     restart: unless-stopped
     ports:
