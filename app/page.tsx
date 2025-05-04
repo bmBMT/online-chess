@@ -9,7 +9,7 @@ import WrapperStyled, { CenterWrapper } from "./styles/WrapperStyled";
 import PlayersBox from "./components/PlayersBox";
 import Timer from "./components/Timer";
 
-export default function Home() {
+export default function HomePage() {
   const [board, setBoard] = useState(new Board());
   const [whitePlayer, setWhitePlayer] = useState(new Player(Colors.WHITE));
   const [blackPlayer, setBlackPlayer] = useState(new Player(Colors.BLACK));
