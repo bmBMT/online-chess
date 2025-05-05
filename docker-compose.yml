@@ -11,6 +11,6 @@ services:
     networks:
       - npm_default
   
-  networks:
-    npm_default:
-      driver: bridge
+networks:
+  npm_default:
+    driver: bridge
