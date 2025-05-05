@@ -9,8 +9,8 @@ services:
       - 3000:3000
     container_name: chess-app
     networks:
-      - npm_default
+      - nginx
   
 networks:
-  npm_default:
+  nginx:
     driver: bridge
