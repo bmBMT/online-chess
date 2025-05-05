@@ -7,5 +7,10 @@ services:
     restart: unless-stopped
     ports:
       - 3000:3000
-    network_mode: npm_default
     container_name: chess-app
+    networks:
+      - npm_default
+  
+  networks:
+    npm_default:
+      driver: bridge
